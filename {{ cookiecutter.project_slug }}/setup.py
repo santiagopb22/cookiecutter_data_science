@@ -11,7 +11,7 @@ def readme() -> str:
     Args:
         nothing
     Returns:
-        String of readed README.md file.
+        String of readed README.md file...
     """
     return open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
